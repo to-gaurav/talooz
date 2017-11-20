@@ -1,0 +1,3 @@
+com/talooz/ms/users/dao/UserRepository.class
+com/talooz/ms/users/UsersMicroserviceServerApplication.class
+com/talooz/ms/users/RestConfig.class

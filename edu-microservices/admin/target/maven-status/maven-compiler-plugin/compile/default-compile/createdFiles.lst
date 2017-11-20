@@ -1,0 +1,5 @@
+com/talooz/ms/admin/batches/dao/BatchRepository.class
+com/talooz/ms/admin/AdminMicroserviceServerApplication.class
+com/talooz/ms/admin/RestConfig.class
+com/talooz/ms/admin/RepositoryConfig.class
+com/talooz/ms/admin/batches/entity/Batch.class

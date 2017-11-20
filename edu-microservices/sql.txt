@@ -1,0 +1,88 @@
+mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
+
+
+create table batches(
+BATCH_ID int not null auto_increment,
+BATCH_NAME varchar(200) not null,
+Batch_DESCRIPTION varchar(500),
+PRIMARY KEY ( BATCH_ID)
+);
+
+create table FEE_CATEGORIES(
+fee_category_id int not null auto_increment,
+fee_name varchar(200) not null,
+fee_description varchar(2000),
+obsolete int(1),
+created_by int(11),
+updated_by int(11),
+creation_date date not null,
+updation_date date not null,
+PRIMARY KEY ( fee_category_id )
+);
+
+create table fee_batch_mapping(
+mapping_id int not null auto_increment,
+fee_category_id int default null,
+batch_id int default null,
+batch_name varchar(200),
+primary key(mapping_id)
+);
+
+create table fee_particulars(
+fee_category_id int(11) not null,
+particular_id int(11) not null auto_increment,
+name varchar(200) not null,
+description varchar(200) not null,
+amount float(14,2) not null,
+obsolete int(1),
+created_by int(11),
+updated_by int(11),
+creation_date date not null,
+updation_date date not null,
+primary key(particular_id)
+);
+
+create table particulars_batch_mapping(
+mapping_id int not null auto_increment,
+fee_category_id int(11) not null,
+particular_id int(11) not null,
+batch_id int(5) not null,
+batch_name varchar(200),
+primary key(mapping_id)
+);
+
+create table fee_collection(
+fee_category_id int not null,
+fee_collection_id int not null auto_increment,
+start_date date not null,
+end_date date not null,
+due_date int(2) not null,
+payment_frequency_id varchar(20) not null,
+obsolete int(1),
+created_by int(11),
+updated_by int(11),
+creation_date date not null,
+updation_date date not null,
+primary key(fee_collection_id )
+);
+
+
+create table payment_frequency
+(
+frequency_id int(2) not null,
+payment_frequency_id varchar(80) not null,
+description varchar(200),
+obsolete int(1) default 0 not null,
+number_of_months int(3) not null
+);
+
+insert into payment_frequency values(1,'PaymentPeriod.MONTH','MONTHLY',0,1);
+insert into payment_frequency values(2,'PaymentPeriod.QUARTER','QUARTERLY',0,3);
+insert into payment_frequency values(3,'PaymentPeriod.HALF_YEAR','HALF YEARLY',0,6);
+insert into payment_frequency values(4,'PaymentPeriod.YEAR','YEARLY',0,12);
+
+insert into batches(batch_name,batch_description) values ('First','First');
+
+insert into batches(batch_name,batch_description) values ('Second','Second');
+
+insert into batches(batch_name,batch_description) values ('Third','Third');

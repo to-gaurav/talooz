@@ -1,0 +1,15 @@
+com/talooz/ms/finance/fee/dao/FeeCollectionRepository.class
+com/talooz/ms/finance/fee/entity/FeeCollection.class
+com/talooz/ms/finance/fee/dao/FeeBatchMappingRespository.class
+com/talooz/ms/finance/fee/entity/FeeBatchMapping.class
+com/talooz/ms/finance/fee/dao/FeeParticularRepository.class
+com/talooz/ms/finance/RepositoryConfig.class
+com/talooz/ms/finance/common/dao/PaymentFrequencyRepository.class
+com/talooz/ms/finance/common/entity/PaymentFrequency.class
+com/talooz/ms/finance/FinanceMicroserviceServerApplication.class
+com/talooz/ms/finance/fee/dao/FeeCategoryRepository.class
+com/talooz/ms/finance/fee/entity/FeeCategory.class
+com/talooz/ms/finance/fee/entity/ParticularBatchMapping.class
+com/talooz/ms/finance/fee/ui/FeeController.class
+com/talooz/ms/finance/fee/entity/FeeParticular.class
+com/talooz/ms/finance/RestConfig.class

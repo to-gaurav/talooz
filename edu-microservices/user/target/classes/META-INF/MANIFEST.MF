@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: user-services
+Implementation-Version: 0.0.1
+Built-By: hadoop
+Implementation-Vendor-Id: com.talooz.ms
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/com.talooz.m
+ s.users/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,15 @@
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/entity/FeeBatchMapping.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/entity/FeeCategory.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/dao/FeeCategoryRepository.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/RepositoryConfig.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/RestConfig.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/ui/FeeController.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/dao/FeeBatchMappingRespository.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/dao/FeeParticularRepository.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/common/dao/PaymentFrequencyRepository.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/FinanceMicroserviceServerApplication.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/entity/FeeParticular.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/common/entity/PaymentFrequency.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/dao/FeeCollectionRepository.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/entity/FeeCollection.java
+/Users/hadoop/edu/edu-microservices/finance/src/main/java/com/talooz/ms/finance/fee/entity/ParticularBatchMapping.java
